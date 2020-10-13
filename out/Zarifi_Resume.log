@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  13 OCT 2020 21:33
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  13 OCT 2020 21:35
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Zarifi_Resume.tex
@@ -926,7 +926,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 File: zarifi.jpg Graphic file (type jpg)
 <use zarifi.jpg>
 Package luatex.def Info: zarifi.jpg  used on input line 152.
-(luatex.def)             Requested size: 119.23503pt x 89.41896pt.
+(luatex.def)             Requested size: 100.22652pt x 75.16977pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1248,17 +1248,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23974 strings out of 481289
+ 23972 strings out of 481289
  100000,953878 words of node,token memory allocated
  630 words of node memory still in use:
    3 hlist, 8 vlist, 1 rule, 8 glue, 3 kern, 1 glyph, 18 attribute, 60 glue_spec
 , 18 attribute_list, 2 write nodes
    avail lists: 2:2201,3:732,4:265,5:124,6:116,7:3489,8:5,9:786,10:5,11:200
- 40381 multiletter control sequences out of 65536+200000
+ 40379 multiletter control sequences out of 65536+200000
  52 fonts using 13020915 bytes
  60i,16n,73p,412b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/windows/fonts/times.ttf>
-Output written on Zarifi_Resume.pdf (2 pages, 83066 bytes).
+Output written on Zarifi_Resume.pdf (2 pages, 83061 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 131072)
