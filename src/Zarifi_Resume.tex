@@ -1,7 +1,6 @@
 %! Author = Mina Zarifi
 %! Date = 10/13/2020
 
-% Preamble
 %!TEX TS-program = xelatex
 \documentclass[10pt,A4]{article}
 
@@ -29,13 +28,12 @@
 
 
 %-----------------------------fonts-------------------------
-%\ProvidesPackage{winfonts}
-%\renewcommand{\encodingdefault}{T1}
-%
-%\RequirePackage{textcomp}
-%\usepackage{fontspec}
-%\setmainfont{Times}
-%\setsansfont{Tahoma}
+\ProvidesPackage{winfonts}
+\renewcommand{\encodingdefault}{T1}
+\RequirePackage{textcomp}
+\usepackage{fontspec}
+\setmainfont{Times}
+\setsansfont{Tahoma}
 
 \definecolor{darkcol}{RGB}{ 70, 70, 70 }
 \definecolor{lightcol}{RGB}{245,245,245}
@@ -125,11 +123,11 @@
 \vspace{14pt}
 
 %-------------------- CV META EVENT--------------------------
-
 \newcommand{\cvmetaevent}[3] {
 
 \ifthenelse{\isempty{#1}}{}{
-\textcolor{darkcol} {\cvtext{\textbf{#1}} }
+\textcolor{darkcol} {\cvtext{\textbf{#1}} \vspace{12pt} }
+
 }
 
 \ifthenelse{\isempty{#2}}{}{
@@ -138,7 +136,6 @@
 
 \cvtext{#3}\\[12pt]
 }
-
 
 %-----------------DOCUMENT CONTENT-----------------------------------------
 \begin{document}
@@ -160,24 +157,19 @@
             \cvsection{PROFILE}
             \cvmetaevent
             {Gender: Female \\
-            Nationality: Persian\\
-            Birth Date: 6/1/1986}
+            Nationality: IRANIAN \\
+            Birth Date: 1/6/1986}
             {Software engineer with a strong background
             in design and development on
             .NET platform for more than 8 years.
             }
-            \null\null
 %--------EDUCATION------------------------------------
             \cvsection{EDUCATION}
             \cvmetaevent
             {Bachelor of Science :}
-            {from Qazvin Azad University in\\ Software Engineering from\\
+            {from Qazvin Azad University in\\[2pt] Software Engineering from\\[2pt]
             September 2006 to September 2010.}
-
-            \null\null
-
-
-%-------------------------META SKILLS----------------------------
+            %-------------------------META SKILLS----------------------------
 
             \cvsection{Languages}
 
@@ -193,12 +185,12 @@
 
             \cvtext{
 
-            \textbf{\textcolor{black} {Email}}: \href{mailto:m101.zarifi@gmail.com}{\color{linkclr}{m101.zarifi@gmail.com}}\\
-            \textbf{\textcolor{black} {Mobile} }: +98912 666 22 62\\
-            \textbf{\textcolor{black} {LinkedIn}}: \href{http://ir.linkedin.com/pub/Mina}{\color{linkclr}{Mina Zarifi}}  \\
-            \textbf{\textcolor{black} {Address}}: Number 36-Sabooniha Street-SHAHR RAY-Tehran-IRAN
+            \textbf{\textcolor{black} {Email}}: \href{mailto:m101.zarifi@gmail.com}{\color{linkclr}{m101.zarifi@gmail.com}}\\[3pt]
+            \textbf{\textcolor{black} {Mobile} }: +98912 666 22 62\\[3pt]
+            \textbf{\textcolor{black} {LinkedIn}}: \href{linkedin.com/in/mina-zarifi-7b6a701b5}{\color{linkclr}{linkedin.com/in/mina-zarifi-7b6a701b5}}  \\[3pt]
+            \textbf{\textcolor{black} {Address}}: Number 36-Sabooniha \\
+            STREET-SHAHR RAY-Tehran-IRAN
             }
-
 
             \vfill
 
@@ -237,7 +229,7 @@
             {Backup DB of Tehran municipality ICT Center and keep them up in Home Office and Studying new technologies.}
             {}
             \vspace{0.58in}
-
+\null
 %---------------------certification-------------------------------
             \cvsection{CERTIFICATIONS}
 
@@ -268,7 +260,7 @@
             {Implementing a Data Warehouse with Microsoft SQL Server 2012}
             {}
             {}
-            \vfill\null
+            \vfill\null\null
 
             \newpage
         \end{rightcolumn}
