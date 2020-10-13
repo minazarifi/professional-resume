@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  13 OCT 2020 22:44
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  13 OCT 2020 23:03
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Zarifi_Resume.tex
@@ -1238,23 +1238,28 @@ Underfull \hbox (badness 10000) in alignment at lines 317--317
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in alignment at lines 318--318
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (E:/Latex_CV/professional-resume/out/Zarifi_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `Zarifi_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1263,12 +1268,12 @@ Here is how much of LuaTeX's memory you used:
  630 words of node memory still in use:
    3 hlist, 8 vlist, 1 rule, 8 glue, 3 kern, 1 glyph, 18 attribute, 60 glue_spec
 , 18 attribute_list, 2 write nodes
-   avail lists: 2:2201,3:732,4:265,5:124,6:116,7:3489,8:5,9:786,10:5,11:200
+   avail lists: 2:2329,3:777,4:265,5:124,6:116,7:3489,8:5,9:786,10:5,11:200
  40381 multiletter control sequences out of 65536+200000
  52 fonts using 13020915 bytes
  60i,16n,73p,412b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/windows/fonts/times.ttf>
-Output written on Zarifi_Resume.pdf (2 pages, 81792 bytes).
+Output written on Zarifi_Resume.pdf (2 pages, 81833 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 131072)
