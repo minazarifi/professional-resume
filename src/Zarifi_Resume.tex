@@ -147,11 +147,15 @@
         \begin{leftcolumn}
 
 %-----------------------META IMAGE-----------------------------------
-
-            \begin{tikzpicture}
-                \node[circle ,draw=rulerclr,thin]{\includegraphics[width=0.59\columnwidth]{zarifi.jpg}};
-                \vspace{-9cm}
-            \end{tikzpicture}
+ \newcolumntype{c}{>{\centering\arraybackslash} m{0.29\paperwidth}}
+            \begin{tabular}{c}
+                \begin{tikzpicture}
+                    \clip (0,0) circle (3cm);
+                    \node[circle ,draw=rulerclr,thin]{\includegraphics[width=1\columnwidth]{zarifi.jpg}};
+                    \vspace{3cm}
+                \end{tikzpicture}
+                \null
+            \end{tabular}
 
 %--------------profile------------------------------
             \cvsection{PROFILE}
@@ -264,6 +268,7 @@
             {}
             {}
             \vfill
+            \vfill
 
             \newpage
         \end{rightcolumn}
@@ -280,8 +285,9 @@
         \begin{tabular}{ L C }
             \centering
             \begin{tikzpicture}
-                \node[circle ,draw=rulerclr,thin]{\includegraphics[width=0.17\columnwidth]{zarifi.jpg}};
-
+%\node[circle ,draw=rulerclr,thin]{\includegraphics[width=0.17\columnwidth]{zarifi.jpg}};
+                \clip (0,0) circle (3cm);
+                \node[circle ,draw=rulerclr,thin]{\includegraphics[width=0.29\columnwidth]{zarifi.jpg}};
             \end{tikzpicture} &
 
             \fcolorbox{white}{darkcol}{\begin{minipage}[c][4.8cm][c]{1\mpwidth}
@@ -297,6 +303,7 @@
         \newline
 
     \end{table}
+
 
     \cvsection{PROGRAMMING SKILLS}
 
