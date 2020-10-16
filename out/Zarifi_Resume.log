@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  14 OCT 2020 14:54
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.10.11)  16 OCT 2020 13:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Zarifi_Resume.tex
@@ -1266,12 +1266,12 @@ Here is how much of LuaTeX's memory you used:
  630 words of node memory still in use:
    3 hlist, 8 vlist, 1 rule, 8 glue, 3 kern, 1 glyph, 18 attribute, 60 glue_spec
 , 18 attribute_list, 2 write nodes
-   avail lists: 2:2351,3:787,4:265,5:124,6:117,7:3502,8:5,9:797,10:5,11:200
+   avail lists: 2:2351,3:787,4:265,5:124,6:117,7:3504,8:5,9:797,10:5,11:200
  40381 multiletter control sequences out of 65536+200000
  52 fonts using 13020915 bytes
  60i,16n,73p,412b,909s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/windows/fonts/times.ttf>
-Output written on Zarifi_Resume.pdf (2 pages, 81923 bytes).
+Output written on Zarifi_Resume.pdf (2 pages, 81926 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 131072)
